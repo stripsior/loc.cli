@@ -1,0 +1,33 @@
+{
+  "name": "codeloc",
+  "version": "1.0.0",
+  "description": "Lines of code counter with beautiful TUI - analyze code repositories with detailed statistics",
+  "main": "bin/codeloc.js",
+  "bin": {
+    "codeloc": "./bin/codeloc.js"
+  },
+  "scripts": {
+    "postinstall": "node scripts/postinstall.js"
+  },
+  "files": [
+    "bin",
+    "scripts"
+  ],
+  "keywords": [
+    "loc",
+    "lines-of-code",
+    "code-analysis",
+    "statistics",
+    "tui",
+    "cli"
+  ],
+  "author": "stripsior",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stripsior/loc.cli"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}

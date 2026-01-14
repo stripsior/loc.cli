@@ -1,0 +1,41 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Go workspace file
+go.work
+go.work.sum
+
+# Build directories
+/cli/bin/
+/cli/dist/
+/cli/*.test
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# NPM
+/npm/node_modules/
+/npm/.bin-cache/
+/npm/package-lock.json
+
+# Temporary files
+*.log
+*.tmp
+tmp*
+
+# Claude
+.claude/
