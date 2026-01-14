@@ -1,5 +1,6 @@
 name: Publish CodeLoc
 
+# Manual workflow to publish new versions
 on:
   workflow_dispatch:
     inputs:
