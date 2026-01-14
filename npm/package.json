@@ -1,6 +1,6 @@
 {
   "name": "codeloc",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Lines of code counter with beautiful TUI - analyze code repositories with detailed statistics",
   "main": "bin/codeloc.js",
   "bin": {
